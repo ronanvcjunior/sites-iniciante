@@ -1,0 +1,43 @@
+.fundo {
+	background: #d2d2c1 url('imagens/fundo.png');
+
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape {
+	font-weight: bold;
+	padding: 16px;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+.borda {
+	border: 5px solid #D0CE90;
+}
+
+.menu {
+	background-color: #d2d2c1;
+	padding: 16px;
+}
+
+.texto {
+	background-color: #F7F8E0;
+	padding: 16px;
+}
+
+.titulo {
+	color: #999452;
+}
+
+.principal {
+	width: 70%;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+}

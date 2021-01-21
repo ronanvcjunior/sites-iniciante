@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #E6E6E6;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+	font-size: 3em;
+	margin: 20px 0;
+}
+
+h3 {
+	background: #D8D6D6;
+	margin: 5px 0;
+	padding: 5px 5px;
+}
+
+p {
+	margin: 5px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FACC2E;
+	padding: 0 5px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FACC2E;
+}
+
+.cabecalho {
+	border: 1px solid #FACC2E;
+	height: 120px;
+	padding: 0px 0px 20px;
+	margin: 0px;
+	background: #FACC2E;
+	text-align: center;
+	color: white;
+}
+
+.menu {
+	margin: 0px 0px;
+	padding: 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: white;
+}
+
+.menu:hover {
+	margin: 0px 0px;
+	padding: 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #FACC2E;
+	background: #fff;
+}
+
+.tec {
+	color: black;
+}
+
+.container {
+	margin: 0 10%;
+	padding: 15px;
+}
+
+.conteudo {
+	background: white;
+	margin: 0 0 15px;
+	width: calc(71% - 22px);
+	padding: 15px;
+}
+
+.h2Conteudo {
+	font-size: 2em;
+	margin: 5px 0;
+	color: #FACC2E;
+}
+
+.imgConteudo {
+	width: 100%;
+}
+
+.post {
+	background: #fff;
+	padding: 15px;
+	position: absolute;
+	right: calc(10% + 15px);
+	top: 158px;
+	width: 19%;
+}
+
+.categoria {
+	background: #fff;
+	padding: 15px;
+	position: absolute;
+	right: calc(10% + 15px);
+	top: 388px;
+	width: 19%;
+}
+
+.rodape {
+	text-align: center;
+	margin: -10px calc(10% + 15px) 15px;
+}

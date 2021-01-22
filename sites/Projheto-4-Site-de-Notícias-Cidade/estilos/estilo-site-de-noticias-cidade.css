@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body.home #home,
+body.brasil #brasil,
+body.fotos #fotos {
+    background-color: #de003e;
+    cursor: default;
+}
+
+body #internacional,
+body #economia,
+body #saude,
+body #ciencia {
+    color: rgba(240, 248, 255, 0.3);
+    cursor: default;
+}
+
+body #internacional:hover,
+body #economia:hover,
+body #saude:hover,
+body #ciencia:hover {
+    background-color: #b10333;
+}
+
+.box {
+    width: 100vh;
+}
+
+.cabecalho {
+    background: #000 url(../imagens/fundo.png);
+    height: 233px;
+    min-width: 893px;
+    
+}
+
+.cabecalho .cabecalho-menu {
+    background: url(../imagens/detalhe-topo.png) no-repeat right;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 110px;
+    width: 70%;
+    height: 170px;
+}
+
+.cabecalho .cabecalho-menu .menu-superior {
+    padding-top: 20px;
+}
+
+.menu-superior li {
+    float: left;
+    background-color: #b10333;
+}
+
+.menu-superior li a {
+    background: #b10333 url(../imagens/divisor.png) no-repeat left;
+    display: block;
+    padding: 0 1.5em;
+    line-height: 2em;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.menu-superior li a.primeiro {
+    background: #b10333;
+}
+
+.menu-superior li a:hover {
+    background-color: #69001d;
+}
+
+/* Conteúdo Home*/
+
+#layout-home {
+    margin: 20px auto;
+    width: 893px;
+}
+
+#layout-home .menu-lateral {
+    float: left;
+    width: 201px;
+}
+
+#layout-home .conteudo-home {
+    float: right;
+    width: 672px;
+}
+
+#layout-home .menu-lateral .entrevistas {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 201px;
+    margin-bottom: 20px;
+}
+
+#layout-home .menu-lateral .news {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 201px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda {
+    float: left;
+    width: 326px;
+}
+
+#layout-home .conteudo-home .conteudo-direita {
+    float: right;
+    width: 326px;
+    height: 700px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 326px;
+    margin-bottom: 20px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 326px;
+}
+
+#layout-home .conteudo-home .conteudo-direita .destaque {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 326px;
+    margin-bottom: 20px;
+}
+
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes {
+    padding: 5px;
+    background: url(../imagens/fundo-caixa.png);
+    width: 326px;
+}
+
+h1 {
+    background-color: #294c71;
+    margin: 10px;
+    padding:  0 5px;
+    color: aliceblue;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+#layout-home .menu-lateral .entrevistas ul {
+    background: #ffffff;
+    margin: 5px 10px 20px;
+}
+
+#layout-home .menu-lateral .entrevistas ul li {
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+#layout-home .menu-lateral .entrevistas ul li a {
+    color: black;
+}
+
+#layout-home .menu-lateral .entrevistas ul li a:hover {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#layout-home .menu-lateral .news div {
+    background-color: #ffffff;
+    margin: 5px 10px 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+#layout-home .menu-lateral .news div input[type="email"] {
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#layout-home .menu-lateral .news div input[type="submit"] {
+    margin-top: 5px;
+    width: 50%;
+    background: linear-gradient(to bottom, #de003e, #b10333);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div,
+#layout-home .conteudo-home .conteudo-direita .destaque div {
+    background-color: #ffffff;
+    margin: 5px 10px 20px;
+    padding: 5px 10px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div h2,
+#layout-home .conteudo-home .conteudo-direita .destaque div h2 {
+    display: inline;
+    background-color: #de003e;
+    margin: 5px 0;
+    padding: 0 5px;
+    color: aliceblue;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div img,
+#layout-home .conteudo-home .conteudo-direita .destaque div img {
+    width: 100%;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div p a,
+#layout-home .conteudo-home .conteudo-direita .destaque div p a {
+    color: #294c71;
+    font-size: 0.8em;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div p a:hover,
+#layout-home .conteudo-home .conteudo-direita .destaque div p a:hover {
+    border-bottom: 1px solid #294c713b;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul {
+    background: #ffffff;
+    margin: 5px 10px 20px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li {
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li+li,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li+li {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a {
+    color: black;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li:hover,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li:hover {
+    background:rgba(0, 0, 0, 0.1);
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a img,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a img {
+    float: left;
+    width: 40%;
+    margin-right: 5px;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a h3,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a h3 {
+    padding: 2px;
+    color: #294c71;
+    font-size: 0.8em;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a p,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a p {
+    font-size: 0.9em;
+}
+
+#layout-home .conteudo-home .conteudo-esquerda .mundo ul li .sepa,
+#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li .sepa{
+    clear: both;
+}

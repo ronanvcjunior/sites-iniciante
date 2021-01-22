@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body #container {
+    background: url(../imagens/bg.png);
+    margin: 0 auto;
+    width: 90%;
+    min-width: 798px;
+    max-width: 1238px;
+}
+
+body .box {
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+body .box img {
+    margin: 15px;
+}
+
+body .box .menu {
+    float: right;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat left;
+    width: 500px;
+    height: 250px;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+body .box .menu .reserva {
+    border-top: 1px solid #897c34;
+    border-bottom: 1px solid #897c34;
+    margin: 10px 0;
+    padding: 5px 0 10px;
+    height: 43px;
+}
+
+body .box .menu .reserva p {
+    display: inline;
+    line-height: 2em;
+    color: #897c34;
+}
+
+body .box .menu .reserva input {
+    background: #897c34;
+    color: #dfd393;
+    padding: 2px 5px;
+    float: right;
+}
+
+body .box .menu UL {
+    background: url(../imagens/depoimento.png) no-repeat right;
+}
+
+body .box .menu UL li {
+    padding: 5px 0;
+}
+
+body .box .menu UL li a {
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 500;
+    color: #897c34;
+}
+
+body .box .menu UL li a:hover {
+    background-color: aliceblue;
+}
+
+.conteudo .principal {
+    background: #efe9cb url(../imagens/bg-area-principal.png) repeat-x;
+    padding: 15px;
+    float: left;
+    width: 50%;
+    height: 487px;
+}
+
+.conteudo .principal h1 {
+    font-weight: 600;
+    color: #4e461c;
+    margin-bottom: 10px;
+}
+
+.conteudo .principal p {
+    line-height: 1.2em;
+}
+
+.conteudo .amostra {
+    background: #dbd7b6 url(../imagens/bg-area-lateral.png) repeat-x;
+    float: left;
+    width: 50%;
+    height: 487px;
+    padding: 20px;
+}
+
+.conteudo .amostra ul li {
+    border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+    height: 110px;
+    margin: 5px;
+}
+
+.conteudo .amostra ul li:hover {
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.conteudo .amostra ul li a img {
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+
+.conteudo .amostra ul li a h2 {
+    font-weight: 600;
+    color: #4e461c;
+    margin-bottom: 0;
+    font-size: 0.7em;
+}
+
+.conteudo .amostra ul li a p {
+    font-weight: 600;
+    color: #000000;
+    font-size: 0.8em;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+.rodape {
+    text-align: center;
+    line-height: 3em;
+}

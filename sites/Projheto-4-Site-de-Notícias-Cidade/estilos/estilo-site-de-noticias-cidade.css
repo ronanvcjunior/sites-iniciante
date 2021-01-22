@@ -82,69 +82,54 @@ body #ciencia:hover {
 
 /* Conteúdo Home*/
 
-#layout-home {
+#layout {
     margin: 20px auto;
     width: 893px;
+    margin-bottom: 20px;
 }
 
-#layout-home .menu-lateral {
+#layout .menu-lateral {
     float: left;
     width: 201px;
 }
 
-#layout-home .conteudo-home {
+#layout .conteudo-home {
     float: right;
     width: 672px;
 }
 
-#layout-home .menu-lateral .entrevistas {
+#layout .menu-lateral .entrevistas {
     padding: 5px;
     background: url(../imagens/fundo-caixa.png);
     width: 201px;
     margin-bottom: 20px;
 }
 
-#layout-home .menu-lateral .news {
+#layout .menu-lateral .news {
     padding: 5px;
     background: url(../imagens/fundo-caixa.png);
     width: 201px;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda {
+#layout .conteudo-home .conteudo-esquerda {
     float: left;
     width: 326px;
 }
 
-#layout-home .conteudo-home .conteudo-direita {
+#layout .conteudo-home .conteudo-direita {
     float: right;
     width: 326px;
     height: 700px;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista,
+#layout .conteudo-home .conteudo-direita .destaque,
+#layout .conteudo-home .conteudo-esquerda .mundo,
+#layout .conteudo-home .conteudo-direita .noticias-recentes {
     padding: 5px;
     background: url(../imagens/fundo-caixa.png);
     width: 326px;
     margin-bottom: 20px;
-}
-
-#layout-home .conteudo-home .conteudo-esquerda .mundo {
-    padding: 5px;
-    background: url(../imagens/fundo-caixa.png);
-    width: 326px;
-}
-
-#layout-home .conteudo-home .conteudo-direita .destaque {
-    padding: 5px;
-    background: url(../imagens/fundo-caixa.png);
-    width: 326px;
-    margin-bottom: 20px;
-}
-
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes {
-    padding: 5px;
-    background: url(../imagens/fundo-caixa.png);
-    width: 326px;
 }
 
 h1 {
@@ -156,38 +141,40 @@ h1 {
     font-weight: 500;
 }
 
-#layout-home .menu-lateral .entrevistas ul {
+#layout .menu-lateral .entrevistas ul {
     background: #ffffff;
     margin: 5px 10px 20px;
 }
 
-#layout-home .menu-lateral .entrevistas ul li {
+#layout .menu-lateral .entrevistas ul li {
     padding: 5px 10px;
     font-size: 0.9em;
 }
 
-#layout-home .menu-lateral .entrevistas ul li a {
+#layout .menu-lateral .entrevistas ul li a {
     color: black;
 }
 
-#layout-home .menu-lateral .entrevistas ul li a:hover {
+#layout .menu-lateral .entrevistas ul li a:hover {
     color: rgba(0, 0, 0, 0.5);
+    background: url(../imagens/marcador.png) no-repeat left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
 }
 
-#layout-home .menu-lateral .news div {
+#layout .menu-lateral .news div {
     background-color: #ffffff;
     margin: 5px 10px 20px;
     padding: 5px 10px;
     font-size: 0.9em;
 }
 
-#layout-home .menu-lateral .news div input[type="email"] {
+#layout .menu-lateral .news div input[type="email"] {
     width: 80%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#layout-home .menu-lateral .news div input[type="submit"] {
+#layout .menu-lateral .news div input[type="submit"] {
     margin-top: 5px;
     width: 50%;
     background: linear-gradient(to bottom, #de003e, #b10333);
@@ -195,15 +182,15 @@ h1 {
     cursor: pointer;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div,
-#layout-home .conteudo-home .conteudo-direita .destaque div {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista div,
+#layout .conteudo-home .conteudo-direita .destaque div {
     background-color: #ffffff;
     margin: 5px 10px 20px;
     padding: 5px 10px;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div h2,
-#layout-home .conteudo-home .conteudo-direita .destaque div h2 {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista div h2,
+#layout .conteudo-home .conteudo-direita .destaque div h2 {
     display: inline;
     background-color: #de003e;
     margin: 5px 0;
@@ -213,69 +200,97 @@ h1 {
     font-weight: 500;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div img,
-#layout-home .conteudo-home .conteudo-direita .destaque div img {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista div img,
+#layout .conteudo-home .conteudo-direita .destaque div img {
     width: 100%;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div p a,
-#layout-home .conteudo-home .conteudo-direita .destaque div p a {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista div p a,
+#layout .conteudo-home .conteudo-direita .destaque div p a {
     color: #294c71;
     font-size: 0.8em;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .ultima-entrevista div p a:hover,
-#layout-home .conteudo-home .conteudo-direita .destaque div p a:hover {
+#layout .conteudo-home .conteudo-esquerda .ultima-entrevista div p a:hover,
+#layout .conteudo-home .conteudo-direita .destaque div p a:hover {
     border-bottom: 1px solid #294c713b;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul {
+#layout .conteudo-home .conteudo-esquerda .mundo ul,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul {
     background: #ffffff;
     margin: 5px 10px 20px;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li {
     padding: 5px 10px;
     font-size: 0.9em;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li+li,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li+li {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li+li,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li+li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li a,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li a {
     color: black;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li:hover,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li:hover {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li:hover,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li:hover {
     background:rgba(0, 0, 0, 0.1);
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a img,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a img {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li a img,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li a img {
     float: left;
     width: 40%;
     margin-right: 5px;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a h3,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a h3 {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li a h3,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li a h3 {
+    text-transform: uppercase;
     padding: 2px;
     color: #294c71;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li a p,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li a p {
+#layout .conteudo-home .conteudo-esquerda .mundo ul li a p,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li a p {
     font-size: 0.9em;
 }
 
-#layout-home .conteudo-home .conteudo-esquerda .mundo ul li .sepa,
-#layout-home .conteudo-home .conteudo-direita .noticias-recentes ul li .sepa{
+#layout .conteudo-home .conteudo-esquerda .mundo ul li .sepa,
+#layout .conteudo-home .conteudo-direita .noticias-recentes ul li .sepa{
     clear: both;
+}
+
+.rodape {
+    clear: both;
+    background-color: #294c71;
+    line-height: 5em;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+/* Layout - Brasil */
+
+.brasil #layout .conteudo-home .conteudo-esquerda .ultima-entrevista,
+.brasil #layout .conteudo-home .conteudo-esquerda .mundo {
+    width: 672px;
+}
+
+/* Layout - Brasil */
+
+.fotos #layout .conteudo-home {
+    float: left;
+}
+
+.fotos #layout .conteudo-home .conteudo-esquerda .ultima-entrevista,
+.fotos #layout .conteudo-home .conteudo-esquerda .mundo {
+    width: 893px;
 }

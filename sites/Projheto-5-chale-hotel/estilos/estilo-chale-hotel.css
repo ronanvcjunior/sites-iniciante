@@ -43,21 +43,19 @@ body .box .menu .reserva {
     border-top: 1px solid #897c34;
     border-bottom: 1px solid #897c34;
     margin: 10px 0;
-    padding: 5px 0 10px;
-    height: 43px;
+    padding: 5px 0;
 }
 
-body .box .menu .reserva p {
-    display: inline;
-    line-height: 2em;
+body .box .menu .reserva span {
     color: #897c34;
+    font-size: 0.8em;
 }
 
-body .box .menu .reserva input {
+body .box .menu .reserva a {
+    float: right;
     background: #897c34;
     color: #dfd393;
     padding: 2px 5px;
-    float: right;
 }
 
 body .box .menu UL {
@@ -79,12 +77,15 @@ body .box .menu UL li a:hover {
     background-color: aliceblue;
 }
 
+.conteudo {
+    background: url(../imagens/bg-container.png) repeat-y center;
+}
+
 .conteudo .principal {
-    background: #efe9cb url(../imagens/bg-area-principal.png) repeat-x;
+    background: url(../imagens/bg-area-principal.png) repeat-x;
     padding: 15px;
     float: left;
     width: 50%;
-    height: 487px;
 }
 
 .conteudo .principal h1 {
@@ -98,10 +99,9 @@ body .box .menu UL li a:hover {
 }
 
 .conteudo .amostra {
-    background: #dbd7b6 url(../imagens/bg-area-lateral.png) repeat-x;
-    float: left;
+    background: url(../imagens/bg-area-lateral.png) repeat-x;
+    float: right;
     width: 50%;
-    height: 487px;
     padding: 20px;
 }
 
@@ -112,7 +112,8 @@ body .box .menu UL li a:hover {
 }
 
 .conteudo .amostra ul li:hover {
-    background-color: rgba(240, 248, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
 }
 
 .conteudo .amostra ul li a img {
@@ -122,6 +123,7 @@ body .box .menu UL li a:hover {
 }
 
 .conteudo .amostra ul li a h2 {
+    background: url(../imagens/ornamento.png) no-repeat right;
     font-weight: 600;
     color: #4e461c;
     margin-bottom: 0;
@@ -137,6 +139,8 @@ body .box .menu UL li a:hover {
 }
 
 .rodape {
+    clear: both;
+    background: aliceblue url(../imagens/bg.png);
     text-align: center;
     line-height: 3em;
 }

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url(../imagens/fundo.png) repeat-x top;
+}
+
+.box {
+    margin: 2em 3em;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 248px;
+    height: 21px;
+}
+
+header .menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 0 0.1em;
+    padding: 0.5em;
+}
+
+.menu li a {
+    color: #a87013;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    color: #ddb87d;
+    border-bottom: 1px solid #ddb87d;
+}
+
+article {
+    display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+section {
+    display: flex;
+    margin-right: 0.5em;
+    flex-basis: 67%;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+section .museu {
+    width: 100%;
+}
+
+section h1 {
+    color: green;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+section .video {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 49.5%;
+}
+
+section .video iframe {
+    width: 100%;
+}
+
+section .mapa {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 49.5%;
+}
+
+section .mapa iframe {
+    width: 100%;
+    max-height: 310px;
+}
+
+section .exposicoes {
+    padding: 0.5em;
+    width: 49.5%;
+    height: 50px;
+}
+
+section .historia {
+    padding: 0.5em;
+    width: 49.5%;
+    height: 50px;
+}
+
+aside {
+    flex-basis: 32%;
+    background: beige;
+}
+
+aside .depoimento {
+    width: 100%;
+}
+
+aside .visita {
+    padding: 1em;
+    width: 100%;
+    background: rgb(197, 197, 160);
+    font-size: 0.9em;
+}
+
+aside h1 {
+    flex-basis: 100%;
+    color: #a87013;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+aside .visita input {
+    margin: 0.1em;
+}
+
+aside .visita input[type="date"] {
+    width: 9.3em;
+}
+
+aside .visita input[type="number"] {
+    width: 3em;
+    padding-left: 0.1em;
+}
+
+aside .visita input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    line-height: 3em;
+    color: #fff;
+    background: rgb(138, 138, 108);
+    width: 100%;
+}
+
+aside .galeria {
+    display: flex;
+    padding: 1em;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+aside .galeria .foto {
+    display: flex;
+    background-image: url(../imagens/fundo-foto.png);
+    margin: 0.2em;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+aside .galeria .foto img {
+    width: 80%;
+}

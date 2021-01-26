@@ -36,19 +36,19 @@ header .menu {
     display: flex;
 }
 
-.menu li {
+header .menu li {
     margin: 0 0.1em;
     padding: 0.5em;
 }
 
-.menu li a {
+header .menu li a {
     color: #a87013;
     font-size: 0.8em;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
-.menu li a:hover {
+header .menu li a:hover {
     color: #ddb87d;
     border-bottom: 1px solid #ddb87d;
 }
@@ -56,16 +56,18 @@ header .menu {
 article {
     display: flex;
     margin: 1em 0;
-    justify-content: space-between;
+    justify-content:center;
     align-items:flex-start;
 }
 
 section {
     display: flex;
     margin-right: 0.5em;
-    flex-basis: 67%;
+    flex-basis: 700px;
     flex-wrap: wrap;
     justify-content:space-between;
+    flex-grow: 1;
+    max-width: 1000px;
 }
 
 section .museu {
@@ -75,6 +77,7 @@ section .museu {
 section h1 {
     color: green;
     font-weight: 600;
+    line-height: 2.5em;
     text-transform: uppercase;
 }
 
@@ -102,17 +105,41 @@ section .mapa iframe {
 section .exposicoes {
     padding: 0.5em;
     width: 49.5%;
-    height: 50px;
+    font-size: 0.9em;
+    
+}
+
+section .exposicoes li {
+    list-style: disc;
+    font-size: 0.9em;
+    margin-left: 2em;
+}
+section .exposicoes p {
+    color: #a87014;
+}
+
+section .exposicoes #todos {
+    color: #a87014;
+    font-weight: 600;
 }
 
 section .historia {
     padding: 0.5em;
     width: 49.5%;
-    height: 50px;
+}
+
+section .historia p {
+    font-size: 0.9em;
+}
+
+section .historia a {
+    color: #a87014;
+    font-size: 0.9em;
+    font-weight: 600;
 }
 
 aside {
-    flex-basis: 32%;
+    flex-basis: 300px;
     background: beige;
 }
 
@@ -179,4 +206,39 @@ aside .galeria .foto {
 
 aside .galeria .foto img {
     width: 80%;
+}
+
+footer {
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .menu-inferior {
+    display: flex;
+}
+
+footer .menu-inferior li {
+    margin: 0 0.1em;
+    padding: 0.5em;
+}
+
+footer .menu-inferior li a {
+    color: #a87013;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer .menu-inferior li a:hover {
+    color: #ddb87d;
+    border-bottom: 1px solid #ddb87d;
+}
+
+footer span {
+    color: #a87013;
+    font-weight: 600;
+    text-transform: uppercase;
 }
